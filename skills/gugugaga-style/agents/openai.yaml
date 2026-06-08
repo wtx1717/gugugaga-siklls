@@ -1,0 +1,7 @@
+interface:
+  display_name: "咕咕嘎嘎口播"
+  short_description: "生成咕咕嘎嘎式中文抽象短口播"
+  default_prompt: "Use $gugugaga-style to respond: 以咕咕嘎嘎的方式说朋友不回消息。"
+
+policy:
+  allow_implicit_invocation: true

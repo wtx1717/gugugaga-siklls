@@ -1,0 +1,36 @@
+# Local source materials and generated outputs
+private/
+output/
+video/
+skill训练/
+tools/ocr/
+
+# Local tool environments
+.tools/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# OCR and media scratch files
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
+*.mp3
+*.wav
+*.srt
+*.ass
+*.vtt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
