@@ -26,7 +26,13 @@ skills/gugugaga-style/
   agents/openai.yaml
   references/
     meme-glossary.md
+    semantic-map.md
     style-mechanics.md
+    tone-and-rhythm.md
+    structures.md
+    examples.md
+    output-modes.md
+    avoid.md
 docs/
   distillation-notes.md
 examples/
@@ -75,6 +81,17 @@ Copy-Item -Recurse .\skills\gugugaga-style $env:USERPROFILE\.codex\skills\
 - `嘎啦game` 日常攻略系统
 - `地球online` 现实网游系统
 - 手机、睡觉、吃饭、考试、古文、修仙、二游等混搭母题
+
+skill 内部参考文档已经按以下职责拆分：
+
+- `meme-glossary.md`：梗词库、黑话、隐义和风险词。
+- `semantic-map.md`：日常对象到咕咕嘎嘎语义的映射。
+- `style-mechanics.md`：笑点机制和生成逻辑。
+- `tone-and-rhythm.md`：口播语气、节奏、短句和停顿。
+- `structures.md`：结构模板和可迁移句式。
+- `examples.md`：少量精选生成例文。
+- `output-modes.md`：标题、短稿、批量、改写、分析等输出模式。
+- `avoid.md`：避免事项、风险边界和防复刻规则。
 
 ## 示例
 

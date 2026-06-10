@@ -7,7 +7,7 @@ description: Generate Chinese absurdist short-video oral scripts in a distilled 
 
 ## Trigger Rule
 
-Use this skill only when the user request starts with the exact prefix:
+Use this skill only when the user request asks for `咕咕嘎嘎` style output, invokes `$gugugaga-style`, or starts with the exact prefix:
 
 ```text
 以咕咕嘎嘎的方式
@@ -20,7 +20,13 @@ When the trigger is present, strip the prefix and treat the remaining text as th
 Read these references as needed before writing:
 
 - [meme-glossary.md](references/meme-glossary.md): core slang, hidden meanings, recurring motifs, and risky terms.
-- [style-mechanics.md](references/style-mechanics.md): generation formulas, structure, pacing, and self-check rules.
+- [semantic-map.md](references/semantic-map.md): mappings from everyday objects to 咕咕嘎嘎 meanings.
+- [style-mechanics.md](references/style-mechanics.md): humor mechanisms and generation logic.
+- [tone-and-rhythm.md](references/tone-and-rhythm.md): oral tone, pacing, sentence rhythm, and line breaks.
+- [structures.md](references/structures.md): reusable script skeletons and sentence templates.
+- [examples.md](references/examples.md): small generated examples and model-safe style samples.
+- [output-modes.md](references/output-modes.md): choose title, short script, batch titles, rewrite, or analysis mode.
+- [avoid.md](references/avoid.md): safety, quality, and corpus-copying restrictions.
 
 ## Output Rules
 
@@ -32,21 +38,23 @@ Read these references as needed before writing:
 - Keep the tone absurd, self-mocking, gameified, overconfident, and internally contradictory.
 - Do not copy long passages from the source corpus.
 - Prefer implicit擦边 and暗梗 over direct explanation.
+- If the request asks for analysis or documentation instead of generation, use concise structured notes.
 
 ## Core Workflow
 
 1. Identify the user's requested topic, scene, object, count, and format.
-2. Choose one primary system:
+2. Choose the output mode from [output-modes.md](references/output-modes.md).
+3. Choose one primary system:
    - `石/屎` system
    - `朋友/好感度` system
    - `手机/床/被子`攻略 system
    - `地球online` system
    - `嘎啦game` system
    - 古文/文豪/修仙/二游 mixed system
-3. Add one interaction target: friend, phone, bed, homework, exam, food, weather, holiday, or body function.
-4. Escalate a mundane problem into an absurd theory.
-5. Add self-exposure: looking for excuses, realizing the logic is broken, or admitting the narrator is a傻福.
-6. Close with a confident, ridiculous conclusion and `咕咕嘎嘎。`
+4. Map the mundane topic through [semantic-map.md](references/semantic-map.md).
+5. Pick a structure from [structures.md](references/structures.md), then apply mechanics from [style-mechanics.md](references/style-mechanics.md).
+6. Add self-exposure: looking for excuses, realizing the logic is broken, or admitting the narrator is a傻福.
+7. Check [avoid.md](references/avoid.md), then close with a confident, ridiculous conclusion and `咕咕嘎嘎。`
 
 ## Minimal Script Shape
 

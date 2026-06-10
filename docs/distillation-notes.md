@@ -22,7 +22,13 @@ The final skill should help a model generate new scripts with similar structure,
    - classical text, cultivation, ACG, and game crossover jokes
 5. Convert motifs into:
    - `meme-glossary.md`
+   - `semantic-map.md`
    - `style-mechanics.md`
+   - `tone-and-rhythm.md`
+   - `structures.md`
+   - `examples.md`
+   - `output-modes.md`
+   - `avoid.md`
    - concise rules inside `SKILL.md`
 6. Keep raw materials out of the public repository.
 
@@ -50,5 +56,6 @@ Before publishing a new version:
 - Confirm all public Markdown files are UTF-8 and readable.
 - Confirm `SKILL.md` has only `name` and `description` in YAML frontmatter.
 - Confirm trigger wording in README and `SKILL.md` matches.
+- Confirm `SKILL.md` links all eight reference files.
 - Confirm examples are newly generated and not copied from the source corpus.
 - Confirm ignored local materials are not staged for commit.
